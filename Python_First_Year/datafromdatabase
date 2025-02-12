@@ -1,0 +1,8 @@
+7
+Tony ['Peter', 'Steve']
+Peter ['Tony', 'Steve', 'Diana']
+Steve ['Tony', 'Peter', 'Sam']
+Sam ['Steve']
+Diana ['Illia', 'Peter', 'Ilya']
+Ilya ['Diana', 'Illia']
+Illia ['Diana', 'Ilya']

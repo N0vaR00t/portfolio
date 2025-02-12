@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+UserClassFile <- Menu
+UserClass <- Menu
+Menu -> SocialNetwork
+class UserClass {
+      user_ID: str
+      connections_list: str
+}
+class UserClassFile {
+      user_ID: str
+      connections_list: str
+}
+class SocialNetwork{
+      system_ID: int
+      commonfriends()
+      less()
+}
+class Menu {
+      map_ID: int
+      start()
+      menuu()
+}
+@enduml
